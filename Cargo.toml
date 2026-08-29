@@ -75,6 +75,6 @@ mock_chroot = ["mock"]
 [patch.crates-io]
 #alpm = { path = "../alpm.rs/alpm" }
 #alpm-utils = { path = "../alpm.rs/alpm-utils" }
-#aur-depends = { path = "../aur-depends" }
+aur-depends = { path = "../aur-depends" }
 #srcinfo = { path = "../srcinfo.rs" }
 #aur-fetch = { path = "../aur-fetch" }
