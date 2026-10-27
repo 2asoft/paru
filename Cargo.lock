@@ -147,8 +147,7 @@ dependencies = [
 [[package]]
 name = "aur-depends"
 version = "5.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77ea792239d42131dfedaebc595234b361ae71d662775d107be4de659953e053"
+source = "git+https://github.com/2asoft/aur-depends.git?rev=refs%2Fheads%2Ffix%2Fcache-installed-provider-deps#edebfb9099ec02ecd3aa22eb5c6a73695fd225ca"
 dependencies = [
  "alpm",
  "alpm-utils",
